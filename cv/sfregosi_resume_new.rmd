@@ -1,0 +1,390 @@
+---
+output: 
+  pdf_document:
+      latex_engine: pdflatex
+      template: cv-latex.tex
+  md_document:
+    variant: gfm
+knit: (function(inputFile, encoding) {
+        rmarkdown::render(inputFile, encoding = encoding,
+         output_format = 'pdf_document', output_file = 'sfregosi_resume') })
+geometry: margin=.7in
+title: 'Extended CV'
+author: Selene Fregosi, PhD
+orcid:  0000-0002-2685-3736
+fontawesome: yes
+email: selene.fregosi@noaa.gov
+github: sfregosi
+phone: '+1 707.373.8299'
+address: 823 Arthur St. Davis, CA 95616
+updated: yes
+keywords: R Markdown, academic CV, template
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+urlcolor: blue(munsell)
+linkcolor: maroon
+jobtitle: Research Bioacoustician
+citizenship: United States
+---
+
+# Research Interests and Expertise
+- Ocean acoustics
+- Marine technology
+- Population density estimation
+- Marine mammal ecology and conservation
+
+<!-- # Programming Languages -->
+<!-- - MATLAB, R -->
+
+# Education
+
+**Ph.D. Wildlife Science**, Oregon State University       \hfill _2020_  
+Dissertation: Applications of slow-moving platforms for passive acoustic monitoring and density estimation of marine mammals   
+**M.Sc. Wildlife Science**, Oregon State University       \hfill _2015_   
+Thesis: Development and evaluation of an animal-borne active acoustic tag to conduct minimally invasive behavioral response studies on marine mammals   
+**B.A. Marine Science**, University of San Diego          \hfill _2009_   
+Concentration: Biology. Minor: Chemistry. Honors: *magna cum laude*  
+
+## Relevant Coursework
+Animal Bioacoustics, Biological Oceanography, Conservation Biology, Geographic Information Systems and Science, Mammal Conservation and Management, Marine Community Ecology, Methods of Data Analysis I & II, Physical and Chemical Oceanography, Wildlife Ecology. 
+
+# Professional Experience
+**Cetacean Acoustician**            \hfill _November 2020 - present_  
+Ocean Associates, Inc. *contracted in support of*  
+Cetacean Research Program, NOAA Pacific Islands Fisheries Science Center, Honolulu, HI, USA  
+40 hours/week  
+
+-	Coordinate deployments of passive acoustic recorders with volunteer longline fishery vessels to monitor for endangered false killer whale depredation and interaction events, curate project protocols and data management, analyze collected acoustic data for vessel noise and false killer whale vocalizations, and produce reports and presentations on project results for funding agencies, non-governmental stakeholders, and review boards
+-	Prepare and pilot gliders for passive acoustic surveys of cetaceans around the Main Hawaiian Islands, develop piloting and analysis tools (computer programming) for passive acoustic glider data, conduct statistical analyses of acoustic data and supervise analyst through additional analyses, present results to funding agency and at professional conferences, and develop proposals for future glider-based population assessments
+- Openscapes Champions Cohort, Fall 2022, Open science professional development
+ 
+
+<!-- - Develop knowledge management systems for North American bird conservation -->
+<!-- - Performance award, FY21 -->
+<!-- - Co-investigator, Earth Science Information Partners research grant -->
+<!-- - Invited seminar presentation at University of Florida -->
+
+**Research Affiliate**              \hfill _April 2022 - present_   
+Cooperative Institute for Marine Ecosystem and Resources Studies  
+Oregon State University and NOAA Pacific Marine Environmental Laboratory, Newport, OR, USA  
+10 hours/week
+
+- Field survey planning and organization, Seaglider pilot and maintenance, and collaborator on NOAA UxSRTO-funded passive acoustic glider project 
+
+<!-- - Advanced statistical methods for identifying abrupt change in ecological communities -->
+<!-- - Authored and maintained 5 scientific software packages: -->
+<!-- - Invited talk at Association for Women in Math Biology annual symposium -->
+<!-- - Published 8 peer-reviewed scientific articles and 1 invited book chapter -->
+<!-- - Co-creator of the University's Association for Women in Science and the Natural Resources Diversity Initiative -->
+<!-- - Developed five software packages for statistical analyses of empirical and simulated ecological data -->
+<!-- - Co-organizer of half-day research symposium at national conference (North American Ornithological Conference)   -->
+<!--     - [`bbsAssistant`](http://github.com/trashbirdecology/bbsAssistant): An R package containing helper functions for downloading and munging data and metadata from the North American Breeding Bird Survey FTP -->
+<!--     - [`regimeDetectionMethods`](http://github.com/trashbirdecology/regimeDetectionMethods): An R package for calculating various regime detection measures -->
+<!--     - [`bbsRDM`](http://github.com/trashbirdecology/bbsRDM): An R package for calculating various regime detection measures using the North American Breeding Bird Survey data -->
+<!-- - Co-authored two R packages: -->
+<!--     - [`radsets`](https://github.com/natbprice/radsets): An R package for interactive, network-based visualizations of overlapping sets -->
+<!--     - [`TVdiff`](https://github.com/natbprice/tvdiff): An R package for implementing numerical differentiation of noisy, non-smooth data -->
+<!-- - Designed and instructed of workshops for managing and analyzing ecological data using Program R -->
+<!-- - Invited and hosted three departmental seminar guests -->
+
+**Postdoctoral Research Associate**    \hfill _September 2022 - present_  
+**Associate Scientist I**              \hfill _April 2011 - August 2022_  
+Southall Environmental Associates, Inc., Aptos, CA, USA  
+<8 hours/week
+
+-	Field-based experimental research to assess behavioral and vocal response of cetaceans to simulated mid-frequency sonar from shore, small boat, and ship-based monitoring platforms 
+
+<!-- - Conducted dissertation research with applied mathematician and systems scientists -->
+<!-- - Presented research in an international forum -->
+<!-- - Organized seminar on Network Analysis in Ecology -->
+<!-- - Research sabbatical advised by applied mathematician (E. Rovenskaya) and systems ecologist (B. Fath) -->
+
+**Postdoctoral Researcher**                   \hfill _July - November 2020_   
+Cooperative Institute for Marine Ecosystem and Resources Studies  
+Oregon State University and NOAA Pacific Marine Environmental Laboratory, Newport, OR, USA  
+40 hours/week
+
+-	Development of machine learning based porpoise click detector and programmatic standardized reporting system
+
+<!-- - Published 2 peer-reviewed scientific articles -->
+<!-- - Invited lectures in data analysis and avian ecology -->
+
+**Graduate Research Fellow**                  \hfill _April 2013 - June 2020_    
+Cooperative Institute for Marine Ecosystem and Resources Studies  
+Oregon State University and NOAA Pacific Marine Environmental Laboratory, Newport, OR, USA
+*and* Department of Fisheries and Wildlife, Corvallis, OR, USA  
+20 hours/week
+
+-	Quantitative assessment of potential uses of deep-water gliders and floats for improved passive acoustic monitoring of marine mammals for understanding marine mammal distribution and ecology and development of population assessment methods 
+-	Development and statistical evaluation of a novel animal-borne sensor for experimental assessment of pinniped responses to anthropogenic noise to better understand the impacts of noise on marine mammals
+-	Analyzed passive acoustic recordings for beaked whales and other odontocetes
+
+<!-- - Data ground-truthing -->
+<!-- - Geospatial analysis of bird nest locations and success -->
+<!-- - Monitored Eastern Screech-Owl nests -->
+
+**Wildlife Biologist**  \hfill May – October 2012 & May – August 2011    
+Duckworth Lab, University of Arizona, Missoula, MT, USA  
+40 hours/week
+
+-	Field team lead for long term study of bluebird behavioral and evolutionary ecology including experimental trials and training of field technicians	
+<!-- - Managed bird banding database -->
+<!-- - Avian behavioral field research -->
+
+**Research Assistant**        \hfill November 2011 - April 2012    
+**Intern**                    \hfill October 2010 – March 2011  
+Pinniped Cognition and Sensory Systems Lab  
+University of California, Santa Cruz, Santa Cruz, CA, USA   
+40 hours/week
+
+-	Husbandry and training of captive pinnipeds for cognition and hearing research, experimental monitoring of behavior and ecology of a wild Northern elephant seal colony
+<!-- - Trained and led team of banding technicians -->
+<!-- - Managed bird banding database -->
+<!-- - Recruited and trained participatory scientists -->
+<!-- - Created outreach materials -->
+
+# Field Research Experience
+<!-- Total piloting time to date: 13 months; total ship time to date: 15 weeks  -->
+
+**Cooperative Institute for Marine Ecosystem and Resources Studies, Oregon State University/NOAA Pacific Marine Environmental Laboratory**
+
+- AUV piloting: Apr-Jun 2022, SG639 & SG680 – Main Hawaiian Islands; Feb-Mar 2020, SG607 & SG639 – Southern California; May-Jun 2018, SG639 – Gulf of Mexico; Jun-Jul 2017, SG607 – Gulf of Mexico; May 2017, SG607 & SG639 – Oregon; Jul-Aug 2016, SG607 & Q003 – Southern California; Dec 2015 – Jan 2016, SG158, Q001 & Q002 – Southern California; Jun-Jul 2015, SG608 – Gulf of Mexico; May 2015, SG607 & SG608 – Oregon; Apr 2015, SG607 & Q003 – Washington; Oct 2014, SG607 – Oregon; Mar 2014, SG158 – Oregon
+- Ship-based activities: day trips 2013-2018, Newport, OR – glider deployments; 18 July – 3 August 2016, *M/V Horizon*, San Diego, CA, *M/V Vibrio*, Two Harbors, CA - Glider, float, moored hydrophone, and buoy deployment, daily re-positioning, and recovery; 20-23 December 2015 and 4-6 January 2016, *U.S. Navy RSC-4*, Point Loma, CA – Glider and float deployment and recovery
+- Shore-based activities: visual surveys and theodolite tracking of migrating grey whales, Newport, OR, Feb-Mar 2013; Northern elephant seal tagging and translocation experiments, Año Nuevo, CA Mar-Apr 2012
+
+**Southall Environmental Associates, Inc.**
+
+- Ship-based activities: 2-4 weeks/yr 2012-2022, *M/V Truth*, Santa Barbara, CA, *M/V Magician*, San Pedro, CA, *R/V Ziphid* and *Musculus* (RHIBs) – tagging, focal follow, photo id, passive/active acoustics
+- Shore-based activities: theodolite tracking of delphinid species during controlled exposure experiments, Two Harbors, CA, Oct-Dec 2022
+
+**University of Arizona**
+
+- Passerine bird nest monitoring, banding, hormone sampling, and behavioral monitoring, Missoula, MT, May-Oct 2012, May-Aug 2011
+
+**University of California, Santa Cruz**
+
+- Rookery composition and behavior monitoring, passive acoustic recording, animal tracking, and playback experiments with Northern elephant seals, Año Nuevo, CA and Piedras Blancas, CA, Dec-Mar 2012, Dec-Mar 2011
+
+# Publications 
+*\*indicates undergraduate mentee*
+
+1. **Fregosi, S**, Harris, DV, Matsumoto, H, Mellinger, DK, Martin, SW, Matsuyama, B, Barlow, J, and Klinck, H. (*2022*). Detection probability and density estimation of fin whales by a Seaglider. *Journal of the Acoustical Society of America*, 152(4): 2277-2291. [doi:10.1121/10.0014793](https://asa.scitation.org/doi/10.1121/10.0014793)
+
+10. Durban, JW, Southall, BL, Calambokidis, J, Casey, C, Fearnbach, H, Joyce, TW, Fahlbusch, JA, Oudejans, MG, **Fregosi, S**, Friedlaender, AS, Keller, NM, Visser, F. (*2022*). Integrating remote sensing methods during controlled exposure experiments to quantify group responses of dolphins to navy sonar. *Marine Pollution Bulletin*, 174:113194. [doi:10.1016/j.marpolbul.2021.113194](https://www.sciencedirect.com/science/article/pii/S0025326X21012285)
+
+9. Oswald, JN, Walmsley, SF, Casey, C, **Fregosi, S**, Southall, BL, Janik, VM. (*2021*). Species information in whistle frequency modulation patterns of common dolphins. *Philosophical Transactions of the Royal Society B*, 376(1836): 20210046. [doi:10.1098/rstp.2021.0046](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2021.0046)
+
+8. Barlow, J, **Fregosi, S**, Thomas, L, Harris, D, Griffiths, ET. (*2021*). Acoustic detection range and population density of Cuvier’s beaked whales estimated from near-surface hydrophones. *Journal of the Acoustical Society of America*, 149(1): 111-125. [doi:10.1121/10.0002881](https://asa.scitation.org/doi/abs/10.1121/10.0002881)
+
+7. **Fregosi, S**, Harris, DV, Matsumoto, H, Mellinger, DK, Barlow, J, Baumann-Pickering, S, & Klinck, H. (2020). Detections of whale vocalizations by simultaneously deployed bottom-moored and deep-water mobile autonomous hydrophones. *Frontiers in Marine Science*, 7: 721. [doi:10.3389/fmars.2020.00721](https://www.frontiersin.org/articles/10.3389/fmars.2020.00721/abstract)
+
+6. **Fregosi, S**, Harris, DV, Matsumoto, H, Mellinger, DK, Negretti\*, C, Moretti, DJ, Martin, SW, Matsuyama, B, Dugan, P, Klinck, H. (*2020*). Comparable detections of fin whale 20 Hz calls by mobile and stationary autonomous recorders. *Journal of the Acoustical Society of America*, 147(2): 961-977. [doi:10.1121/10.0000617](https://asa.scitation.org/doi/10.1121/10.0000617)
+
+5. Southall, BL, DeRuiter, S, Friedlaender, AS, Stimpert, AK, Goldbogen, J, Hazen, E, Casey, C, **Fregosi, S**, Cade, D, Allen, A, Harris, C, Falcone, E, Schorr, G, Moretti, DJ, Gailey, G, Guan, S, Calambokidis, J. (*2019*). Behavioral responses of individual blue whales (*Balaenoptera musculus*) to mid-frequency military sonar. *Journal of Experimental Biology*, 222(5): jeb190637. [doi:10.1242/jeb.190637](https://jeb.biologists.org/content/222/5/jeb190637.abstract)
+
+4. Nieukirk, SL, **Fregosi, S**, Mellinger, DK, & Klinck, H. (*2016*). A complex baleen whale call recorded in the Marianas Trench Marine National Monument. *Journal of the Acoustical Society of America*, 140(3): EL1-6. [doi:10.1121/1.4962377](http://asa.scitation.org/doi/10.1121/1.4962377)
+
+3. **Fregosi, S**, Klinck, H, Horning, M, Mellinger, DK, Costa, DP, Mann, DA, Sexton, K, Hückstädt, L & Southall, BL. (*2016*). An animal-borne active acoustic tag for minimally invasive behavioral response studies on marine mammals. *Animal Biotelemetry*, 4: 9. [doi:10.1186/s40317-016-0101-z](https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-016-0101-z)
+
+2. Klinck, H, **Fregosi, S**, Matsumoto, H, Turpin, A, Mellinger, DK, Erofeev, A, Barth, JA, Shearman, RK, Jafarmadar, K, & Stelzer, R. (*2016*). Mobile autonomous platforms for passive-acoustic monitoring of high-frequency cetaceans, *in* A. Friebe and F. Haug (Eds.), Robotic Sailing 2015, Springer International Publishing, pp. 29–37. [doi:10.1007/978-3-319-23335-2_3](https://link.springer.com/chapter/10.1007%2F978-3-319-23335-2_3)
+
+1. Matsumoto, H, Haxel, J, Turpin, A, **Fregosi, S**, Klinck, H, Klinck, K, Baumann-Pickering, S, Erofeev, A, Barth, JA, Dziak, RP, & Jones, C. (*2015*). Simultaneous operation of mobile acoustic recording systems off the Washington Coast for cetacean studies: System noise level evaluations, *Oceans 2015 MTS/IEEE, 19-22 October 2015*, Washington, D.C. [doi: 10.23919/OCEANS.2015.7401830](https://ieeexplore.ieee.org/abstract/document/7401830)
+
+## In Revision or Review
+Harris, DV, **Fregosi, S**, Klinck, H, Mellinger, DK, Thomas, L. (*In Revision*). Assessing the effect of ocean glider movement on distance sampling assumptions. *Remote Sensing in Ecology and Conservation*
+
+# Peer-reviewed Reports
+8. **Fregosi, S**, Mellinger DK, & Ampela, K. (*2020*) Passive acoustic monitoring of large whales on and off the continental shelf of Southern California using autonomous underwater vehicles. Draft Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, San Diego, CA. Submitted to Naval Facilities Engineering Command Pacific (NAVFAC PAC), Pearl Harbor, HI under Contract No. N6247015D8006, Task Order 18F0147, issued to HDR Inc., San Diego, CA. November 2020.
+
+7. Mellinger, DK & **Fregosi, S**. (*2019*). Assessment of ocean ambient sound levels in the northern Gulf of Mexico, May – June 2018. Preliminary Report. Prepared for the Bureau of Ocean Energy Management (BOEM), United States Department of the Interior under Contract No. M17PC00001, Task Order M17PD00011, issued to HDR Inc., Vienna, VA, USA. Prepared by Oregon State University, Newport, OR, USA. February 2019. 
+
+6. Klinck, H, Nieukirk, SL, **Fregosi, S**, Klinck, K, Mellinger, DK, Lastuka, S, Shilling, GB, & Luby, JC. (*2016*). Cetacean Studies on the Kona Coast in March 2010: Passive Acoustic Monitoring of Marine Mammals Using Gliders – Results from an Engineering Test. Final Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, Pearl Harbor, HI. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Pearl Harbor, HI under Contract No. N62470-10-D-3011, Task Order KB25, issued to HDR Inc., Honolulu, HI. Prepared by Oregon State University, Newport, OR, and the Applied Physics Laboratory of the University of Washington, Seattle, WA. April 2016. 36 pages.
+
+5. Klinck, H, Nieukirk, SL, **Fregosi, S**, Klinck, K, Mellinger, DK, Lastuka, S, Shilling, GB, & Luby, JC. (*2016*). Cetacean Studies in the Gulf of Alaska Temporary Maritime Activities Area in July-August 2015: Passive Acoustic Monitoring of Marine Mammals Using Gliders. Final Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, Pearl Harbor, HI. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Pearl Harbor, HI under Contract No. N62470-10-D-3011, Task Order KB25, issued to HDR Inc., Honolulu, HI. Prepared by Oregon State University, Newport, OR, and the Applied Physics Laboratory of the University of Washington, Seattle, WA. March 2016. 44 pages.
+
+4. Klinck, H, Nieukirk, SL, **Fregosi, S**, Klinck, K, Mellinger, DK, Lastuka, S, Shilling, GB, & Luby, JC. (*2016*). Cetacean Studies on the Mariana Islands Range Complex in March-April 2015: Passive Acoustic Monitoring of Marine Mammals Using Gliders. Final Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, Pearl Harbor, HI. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Pearl Harbor, HI under Contract No. N62470-10-D-3011, Task Order KB25, issued to HDR Inc., Honolulu, HI. Prepared by Oregon State University, Newport, OR, and the Applied Physics Laboratory of the University of Washington, Seattle, WA. March 2016. 52 pages.
+
+3. Klinck, H, Nieukirk, SL, **Fregosi, S**, Klinck, K, Mellinger, DK, Lastuka, S, Shilling, GB, & Luby, JC. (*2015*). Cetacean Studies on the Quinault Range Site in June 2012: Passive Acoustic Monitoring of Marine Mammals Using Gliders – Results from an Engineering Test. Final Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, Pearl Harbor, HI. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Pearl Harbor, HI under Contract No. N62470-10-D-3011, Task Order KB25, issued to HDR Inc., Honolulu, HI. Prepared by Oregon State University, Newport, OR, and the Applied Physics Laboratory of the University of Washington, Seattle, WA. November 2015. 33 pages.
+
+2. Klinck, H, Nieukirk, SL, **Fregosi, S**, Klinck, K, Mellinger, DK, Lastuka, S, Shilling, GB, & Luby, JC. (*2015*). Cetacean Studies in the Hawaii Range Complex in December 2014–January 2015: Passive Acoustic Monitoring of Marine Mammals Using Gliders. Final Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, Pearl Harbor, HI. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Pearl Harbor, HI under Contract No. N62470-10-D-3011, Task Order KB23, issued to HDR Inc., Honolulu, HI. Prepared by Oregon State University, Newport, OR, and the Applied Physics Laboratory of the University of Washington, Seattle, WA. October 2015. 58 pages.
+
+1. Klinck, H, Nieukirk, SL, **Fregosi, S**, Klinck, K, Mellinger, DK, Lastuka, S, Shilling, GB, & Luby, JC. (*2015*). Cetacean Studies on the Mariana Islands Range Complex in September-November 2014: Passive Acoustic Monitoring of Marine Mammals Using Gliders. Final Report. Prepared for Commander, U.S. Pacific Fleet, Environmental Readiness Division, Pearl Harbor, HI. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Pearl Harbor, HI under Contract No. N62470-10-D-3011, Task Order KB25, issued to HDR Inc., Honolulu, HI. Prepared by Oregon State University, Newport, OR, and the Applied Physics Laboratory of the University of Washington, Seattle, WA. August 2015. 50 pages
+
+<!-- # Notable Code and Software -->
+
+<!-- ### Lifecycle: maturing, stable -->
+<!-- 1. **Burnett, J.L.**, L.S. Wszola, and G. Palomo-Munoz. 2019. [`bbsAssistant`](https://github.com/TrashBirdEcology/bbsAssistant): An R package for downloading and handling data and information from the North American Breeding Bird Survey: U.S. Geological Survey software release. DOI: [10.5066/P93W0EAW](https://doi.org/10.5066/P93W0EAW). -->
+<!-- 1. Price, N.B., C. Chizinski, and **J.L. Burnett**. `radsets`. An R package for interactive, network-based visualizations of overlapping sets.  [Github:natbprice/radsets](https://natbprice.github.io/radsets/) -->
+<!-- 1. **Burnett, J.L.**, N.B. Price, and A.J. Tyre. [`distanceTravelled`](https://github.com/TrashBirdEcology/distancetravelled). An R package for calculating the distance traveled by a multispecies community along a time series.  -->
+<!-- 1. Price, N.B. and **J.L. Burnett**. `tvdiff`.  An R package for numerical differentiation of noisy, non-smooth data. [Github:natbprice/tvdiff](https://github.com/natbprice/tvdiff)  -->
+
+<!-- ### Lifecycle: dormant -->
+<!-- 1. **Burnett, J.L.**, N.B. Price. [`regimeDetectionMeasures`](https://github.com/TrashBirdEcology/regimedetectionmeasures). An R package for calculating univariate and multivariate regime detection methods using community time series.   -->
+
+<!-- ### Lifecycle: experimental -->
+<!-- 1. **Burnett, J.L.**, K.R. Burgio, A. Fournier [`USAvian`](https://github.com/TrashBirdEcology/USAvian/): An interactive map for connecting and visualizing the bird conservation and management networks in the U.S.  -->
+
+<!-- 1. **Burnett, J.L.**, X. Benito, and K. Braziunas. [`abruptdata`](http://github.com/regime-shifts/abruptdata). An R package and information repository for ecological datasets exhibiting abrupt change. -->
+
+# Research Grants
+2021	Advancing remote marine mammal stock assessment with passive acoustic gliders, NOAA Applications of Uncrewed Systems Technology \hfill **$830k** 
+2019	Autonomous Underwater Vehicle Passive Acoustic Monitoring of Beaked Whales in 			the Southern California Area, NAVFAC HDR Contract \hfill **$260k**
+
+
+
+
+
+# Fellowships, Honors & Awards
+
+2019		Briggs Scholarship in Biogeography, Oregon State University     \hfill **$1000**
+2018		Oregon Lottery Graduate Scholarship, Oregon State University    \hfill **$2000**
+        Bob Moch Memorial Endowment Service Award, Hatfield Student Organization \hfill **$1000**
+		    Robert Anthony Graduate Scholarship in Population Ecology, Oregon State University \hfill **$2000**
+			  Graduate Student Travel Award, Oregon State University    \hfill**$1000**
+			  Student Travel Subsidy, Acoustical Society of America \hfill **$200**
+			  GoMRI Scholar, Gulf of Mexico Research Initiative
+2017		Mamie L. Markham Research Award, Hatfield Marine Science Center \hfill **$8000**			        Thomas G. Scott Grant Scholarship, outstanding PhD student, Oregon State University \hfill **$2000**
+        Lylian Brucefield Reynolds Scholarship Fund Award, Hatfield Marine Science Center \hfill **$1000**
+			  Hatfield Student Organization Travel Award, Hatfield Marine Science Center \hfill **$400**
+2016		Chairman’s Leadership Award, OSU Department of Fisheries and Wildlife \hfill **$500**
+			  Student Travel Subsidy, Acoustical Society of America     \hfill **$175**
+			  Mastin Student Travel Award, Oregon State University, Dec 2016    \hfill **$1000**
+			  Hatfield Student Organization Travel Award, HMSC, OSU, Dec 2015 \hfill **$250**
+2015		Student Travel Support, DCLDE Workshop \hfill **$1200**
+2014 		National Defense Science and Engineering Graduate Fellowship, American Society 			for Engineering Education & Office of Naval Research, 3 years \hfill **$142k**
+			  Dr. Nancy Foster Scholarship, NOAA, declined
+2014 		Student Travel Support, 5th Biologging Science Symposium \hfill **$1400**
+			  Mastin Student Travel Award, Oregon State University \hfill **$2000**
+			  Hatfield Student Organization Travel Award, Hatfield Marine Science Center \hfill **$250**
+2013		Provost Distinguished Graduate Fellowship, Oregon State University \hfill **$36k**
+			  Markham First Year Award, Hatfield Marine Science Center    \hfill **$6000**
+		    Laurel’s Block Grant Tuition Scholarship, Oregon State University \hfill **$6800**
+        Student Travel Award, DCLDE Workshop    \hfill **$1200**
+			  Student Travel Award, Acoustical Society of America \hfill **$120**
+2009    Trustee Scholarship, University of San Diego \hfill **$48k**
+2005		Valedictorian, St. Patrick- St. Vincent High School
+
+
+
+<!-- # Teaching   -->
+<!-- ## Course Development -->
+<!-- **Reproducible Research and Collaboration in Ecology**. Course materials can be found on [GitHub](https://github.com/TrashBirdEcology/courses/tree/master/rr_course). -->
+
+<!-- ## Instruction -->
+<!-- **Co-instructor** Introduction to Applied Ecological Statistics, Kearney, NE \hfill 2017   -->
+<!-- - Week-long workshop for employees of the Nebraska Game and Parks Commission employees -->
+
+<!-- **Instructor** Introduction to Prorgam R \hfill 2017   -->
+<!-- - Designed and taught a series of half-day workshops for graduate students -->
+<!-- - Basics of data management and analysis using Program R -->
+
+<!-- **Guest Lecturer** Module: using citizen science data to understand ecological invasions; Course: Avian Invasions  \hfill 2016   -->
+<!-- - Designed and taught series of lectures on citizen science data use and applications -->
+
+<!-- **Teaching Assistant** Wildlife Population Ecology, Department of Wildlife Ecology & Conservation, University of Florida \hfill 2015   -->
+<!-- - Led quantitative laboratory sessions -->
+
+<!-- **Teaching Assistant** Ecological Statistics, Department of Wildlife Ecology & Conservation, University of Florida \hfill 2015     -->
+<!-- - Led and moderate discussions -->
+<!-- - Provided statistical support   -->
+
+<!-- **Guest Lecturer** Wetland birds module, Florida Master Naturalist \hfill 2013   -->
+<!-- - Designed and taught module on wetland bird identification and ecology -->
+
+# Organized Sessions
+Connect the dots: Multi-target tracking in acoustics. Co-organizer with P. Grude and Y. Barkely. The 9th International Workshop on Detection, Classification, Localization, and Density Estimation of Marine Mammals Using Passive Acoustics, Oahu, Hawai'i, USA \hfill March 2022
+
+# Selected Presentations
+## Invited 
+**Fregosi, S**, Harris, D, Mellinger DK, Barlow, J, Thomas, L, Klinck, H. Detection probability of Cuvier’s beaked whale clicks from a glider and a deep-water float. 174th Meeting of the Acoustical Society of America, Victoria, BC, Canada, 4-10 Nov 2018
+
+
+## Contributed
+**Fregosi, S**, Norris, E, Wood, M, Mellinger, DK, & Oleson, E. Advancing remote marine mammal stock assessment with passive acoustic gliders. *Underwater Glider User Group (UG2) Workshop*, Oral presentation. Seattle, WA, USA, 20-22 Sep 2022
+
+**Fregosi, S**, Harris, DV, Matsumoto, H, Mellinger, DK, Martin, SW, Matsuyama, BM, Barlow, J, & Klinck, H. Detection probability and density estimation of fin whales by a Seaglider. *179th Meeting of the Acoustical Society of America*, Oral presentation. Virtual, 7-11 Dec 2020
+
+**Fregosi, S**, Klinck, H., Matsumoto, H, Turpin, A, Martin, SW, Matsuyama, BM, Helble, TA, Henderson, EE, Moretti, DJ, Morrissey, RP, and Mellinger, DK. (2016). Simultaneous recordings of marine mammal calls by a glider, float, and cabled hydrophone array. *172nd meeting of the Acoustical Society of America*, Oral presentation. Honolulu, HI, USA, 28 Nov–3 Dec 2016
+
+**Fregosi, S**, Klinck, H, Horning, M, Mellinger, DK, Costa, DP, Mann, DA, Sexton, K, Hückstädt, L & Southall, BL. Turn down for what: Animal-borne controlled exposure as an innovative tool for dive manipulation in free-ranging marine mammals. *21st Biennial Conference on the Biology of Marine Mammals*, Oral presentation. San Francisco, CA, USA, 12-18 December 2015
+
+**Fregosi, S**, Klinck, H, Matsumoto, H, Turpin, A, Mellinger, DK, & Baumann-Pickering, S. Field comparison of PAM capabilities between a commercially available glider, a float, and a bottom-moored system. *The 7th International Detection, Classification, Localization, and Density Estimation Workshop*, Oral presentation. La Jolla, CA, USA, 13-16 July 2015 
+
+**Fregosi, S**, Klinck, H, Horning, M, Mellinger, DK, Costa, DP, Mann, DA, Sexton, K, Hückstädt, L & Southall, BL. (2014). Integration of an active acoustic playback system with an animal-borne sensor suite for behavioral response studies. *5th International Bio-logging Science Symposium*, Poster presentation. Strasbourg, France, 22-27 September 2014
+
+**Fregosi, S**, Klinck, H, Horning, M, Mellinger, DK, Costa, DP, Mann, DA, Sexton, K, & Hückstädt, L. Use of an animal-borne active acoustic tag to conduct minimally-invasive behavioral response studies. 1*66th Meeting of the Acoustical Society of America*, Oral presentation. San Francisco, CA, USA, 2-6 December 2013
+
+**Fregosi, S**, Klinck, H, Mellinger, DK, Bogue, NM, & Luby, JC. Acoustic observations of mid-frequency cetaceans in the eastern North Pacific using a glide. *Sixth International Workshop on Detection, Classification, Localization, and Density Estimation of Marine Mammals using Passive Acoustics*, Poster presentation, St. Andrews, Scotland, UK, 12-15 June 2013
+
+# Service and Outreach
+## Peer Review Activity  
+- NOAA: Research Article Internal Review (1), Hollings Scholar Applications
+- Scientific manuscripts: *Animal Biotelemetry* (1), *Conservation Science and Practices* (1), *Deep-Sea Research Part I* (1),	*Frontiers in Marine Science* (2), *Journal of the Acoustical Society of America* (1), *Marine Biology* (1), *Marine Ecology Progress Series* (2), *Marine Technology Society Journal* (1), *Scientific Reports* (1)
+
+## Professional Membership
+Acoustical Society of Amercai, Animal Bioacoustics Technical Committee; Marine Techonology Society; Underwater Glider User Group
+
+## Commitment to Diversity, Equity, and Inclusion
+I am committed to promoting and enhancing diversity, equity, and inclusion (DEI) in the sciences and work to educate myself and provide research and learning opportunities to historically excluded groups. 
+
+NOAA-led DEI Trainings
+- White Allyship DEI Training                       \hfill 2020
+- Unconscious Bias DEI Training                     \hfill 2020
+- Practical Ways to be an Ally DEI Training         \hfill 2020
+
+Participation in K-12 Outreach Programs
+- Mentor, Girls in Engineering and Marine Science, Oregon Coast STEM Hub, Hatfield Marine Science Center \hfill 2016 - 2018
+- Mentor, Designing our World: A community Envisioning Girls as Enginners, Oregon Coast STEM Hub, Hatfield Marine Science Center \hfill 2016-2017
+  - NSF-funded program, included two-part training workshop for mentors
+
+## Selected Public Talks
+- The How and Why of Using Underwater Gliders to Listen for Whales, Oregon Chapter of the American Cetacean Society, Newport Public Library, Newport, OR, USA \hfill 10 February 2018
+- #SciComm: The Social Media – Science Connection. Monday Tech Talk, Hatfield Marine Science Center, Newport, OR, USA \hfill 2 February 2015. 
+- Do you speak whale? Oregon Chapter of the American Cetacean Society, Newport Public Library, Newport, OR, USA \hfill 13 December 2014.
+- Bioacoustics of northern elephant seals. Año Nuevo State Park Docent Seminar, Año Nuevo, CA, USA \hfill January 2012. 
+
+## Selected Community Involvement and Leadership
+- Organizer, Wild About Wildlife Summer Camp, Oregon State University \hfill 2017-2018
+- Hatfield Student Organization, Treasurer \hfill 2017 – 2018
+- Hatfield Student Organization, Community Outreach Coordinator \hfill 2014 – 2017 
+- Fisheries and Wildlife Graduate Student Organization, Communication’s Officer \hfill 2014 – 2017
+- Volunteer, Marine Science Day, Hatfield Marine Science Center \hfill 2013-2017
+
+<!-- Careers in Science Investigation, instructor (2017, 2018, 2020) -->
+<!-- Wild About Wildlife Summer Camp, OSU, planning committee (2017 – 2018) -->
+<!-- Discovering the Scientists Within, instructor (2017 – 2018) -->
+<!-- Hatfield Marine Science Center, Marine Science Day, scientist volunteer (2013 – 2017) -->
+<!-- Oregon Coast Renewable Energy Challenge, judge (2016 – 2017) -->
+<!-- Girls in Engineering and Marine Science, mentor (2016) -->
+<!-- SeaGlide Educator Workshop, instructor (2015 – 2016) -->
+<!-- Winter Wonderings (science camp), instructor (2014) -->
+<!-- Newport Science Fair, mentor (2013) -->
+
+# Special Courses
+Openscapes Champions NOAA SWFSC/PIFSC Fall Cohort, remote-by-design \hfill Fall 2022 
+- 10-week course in professional development and leadership in open science practices 
+
+Summer Course in Acoustic Communication, SNAK, University of Southern Denmark, Odense, Denmark \hfill 11-24 Aug 2017 
+- Advanced theoretical and practical course covering topics of terrestrial and marine animal acoustic communication
+
+Seaglider Pilot Training, Kongsberg UTI, Lynnwood, WA, USA \hfill 23-27 June 2014
+- Intensive hands-on training course for piloting Kongsberg Seagliders
+
+SeaBASS (BioAcoustics Summer School), National Conference Center, Leesburg, Virginia, USA \hfill 16-20 June 2014
+- One-week foundational graduate course on marine animal biology and acoustics
+
+Introduction to Animal Bioacoustics, Oregon State University, Corvallis, OR, USA \hfill January-March 2013
+- Graduate special topics course covering range of bioacoustics topics including sound recording and analysis, source-medium receiver theory, animal behavior and acoustic communication
+
+Methods in Marine Bioacoustics, Duke University Marine Laboratory, Beaufort, NC,  USA \hfill 12-24 August 2012
+- Two-week course on basics of active and passive marine bioacoustics methodology including theory and hands on equipment and software training
+
+# Skills/Certifications
+Experienced MATLAB and R programmer
+Acoustic analysis of low and high-frequency data, using various software and automated detection and classification (Osprey, Ishmael, Raven, Triton, Pamguard, Adobe Audition)
+Spatial analyses in ArcGIS and Matlab
+Pilot for underwater AUV’s including Seaglider and APEX float
+American Boating Certification; experience with small boat driving, maintenance, and towing (including open ocean research activities)
+Physiological sample collection for avian and pinniped species including blood collection
+Captive marine mammal husbandry, behavioral observation, and health assessment
