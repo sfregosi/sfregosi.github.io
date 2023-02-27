@@ -168,7 +168,7 @@ $endfor$
 
 % Custom section fonts
 \usepackage{sectsty}
-\sectionfont{\rmfamily\bfseries\Large}
+\sectionfont{\rmfamily\bfseries\scshape\Large}
 \subsectionfont{\rmfamily\mdseries\normalsize\itshape}
 
 \usepackage[usenames, dvipsnames]{color}
@@ -203,16 +203,17 @@ $endfor$
 % Use fontawesome. Note: you'll need TeXLive 2015. Update.
 $if(fontawesome)$\usepackage{fontawesome}$endif$
 
+% %%%%%%%%%%%% PAGE HEADER AND FOOTER %%%%%%%%%%%%%%%%%%%%
 % Fancyhdr, as I tend to do with these personal documents.
 \usepackage{fancyhdr,lastpage}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.0pt}
-\lhead{}
+\lhead{\scriptsize  \textsc{$author$}}
 \chead{}
 \rhead{}
-\lfoot{
-\cfoot{\scriptsize  $author-meta$ - $title$ }}%- $orcid$ }}
+\lfoot{\scriptsize  \textsc{$author$}}
+\cfoot{}%- $orcid$ }}
 \rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
 
 % Always load hyperref last.
@@ -238,33 +239,46 @@ $endif$
             breaklinks=true, bookmarks=true}
 \urlstyle{same}  % don't use monospace font for urls
 
+
+
+
+%%%%%%%%% ACTUALLY LAY OUT THE DOC %%%%%%%%%%%%%%
 \begin{document}
 
-
-\centerline{\huge \bf $author$}
-
+% HEADER STUFF
+% \centerline{\huge \bf $author$}
+\centerline{\huge \textsc{$author$}}
 \vspace{2 mm}
-
 \hrule
-
 \vspace{2 mm}
-%job title
+
+%job title - own line
 $if(jobtitle)$\moveleft.5\hoffset\centerline{$jobtitle$}$endif$
-%address
-$if(address)$\moveleft.5\hoffset\centerline{$address$}$endif$
+
+%address and phone - own line
+$if(address)$\moveleft.5\hoffset\centerline{$address$ \hspace{1 mm}
+$if(phone)$ | $phone$  \hspace{1 mm} $endif$ 
+}$endif$
+
+% next line - web contact info
 \moveleft.5\hoffset\centerline{ 
-%github
-$if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{https://github.com/$github$}{\color{black} $github$} \hspace{1 mm} $endif$  
-%phone
-$if(phone)$$if(fontawesome)$ \faMobile \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ 
 %email
 $if(email)$$if(fontawesome)$\faEnvelopeO \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\color{black} $email$} \hspace{1 mm}$endif$ 
 %website
-$if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{https://$web$}{\tt $web$}  $endif$ $if(updated)$ | \emph{Updated:} \today$endif$}
+$if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{https://$web$}{\tt $web$}  \hspace{1 mm}$endif$ 
+%github
+$if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{https://github.com/$github$}{\color{black} $github$} \hspace{1 mm} $endif$}  
+%phone
+% $if(phone)$$if(fontawesome)$ \faMobile \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ 
 
+% next line - citizenship and update
+\moveleft.5\hoffset\centerline{ 
+% citizenship
+$if(citizenship)$ \emph{Citizenship:} $citizenship$ \hspace{1 mm} $endif$
+% updated
+$if(updated)$ | \hspace{1 mm} \emph{Updated:} \today$endif$}
 
 \vspace{2 mm}
-
 \hrule
 
 $body$

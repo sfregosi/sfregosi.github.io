@@ -9,14 +9,17 @@ knit: (function(inputFile, encoding) {
         rmarkdown::render(inputFile, encoding = encoding,
          output_format = 'pdf_document', output_file = 'sfregosi_resume') })
 geometry: margin=.7in
+fontawesome: yes
 title: 'Extended CV'
 author: Selene Fregosi, PhD
 orcid:  0000-0002-2685-3736
-fontawesome: yes
+# jobtitle: Research Bioacoustician
+address: 823 Arthur St., Davis, CA 95616
+phone: '+1.707.373.8299'
 email: selene.fregosi@noaa.gov
+web: sfregosi.github.io
 github: sfregosi
-phone: '+1 707.373.8299'
-address: 823 Arthur St. Davis, CA 95616
+citizenship: United States
 updated: yes
 keywords: R Markdown, academic CV, template
 fontfamily: mathpazo
@@ -24,8 +27,6 @@ fontfamilyoptions: sc, osf
 fontsize: 11pt
 urlcolor: blue(munsell)
 linkcolor: maroon
-jobtitle: Research Bioacoustician
-citizenship: United States
 ---
 
 # Research Interests and Expertise
@@ -47,7 +48,7 @@ Thesis: Development and evaluation of an animal-borne active acoustic tag to con
 Concentration: Biology. Minor: Chemistry. Honors: *magna cum laude*  
 
 ## Relevant Coursework
-Animal Bioacoustics, Biological Oceanography, Conservation Biology, Geographic Information Systems and Science, Mammal Conservation and Management, Marine Community Ecology, Methods of Data Analysis I & II, Physical and Chemical Oceanography, Wildlife Ecology. 
+Animal Bioacoustics, Biological Oceanography, Conservation Biology, Geographic Information Systems and Science, Mammal Conservation and Management, Marine Community Ecology, Methods of Data Analysis I & II, Physical and Chemical Oceanography, Spatio-temporal Variation in Ecology and Earth Science, Wildlife Ecology. 
 
 # Professional Experience
 **Cetacean Acoustician**            \hfill _November 2020 - present_  
