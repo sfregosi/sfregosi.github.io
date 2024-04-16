@@ -5731,3 +5731,18 @@ ul.off-canvas-list li a {
 .lt-ie10 .move-right > .inner-wrap {
   left: 250px;
 }
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.pic-column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
